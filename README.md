@@ -1,1 +1,1 @@
-# Going_Shopping_Assignment
+# JavaScript_Assignments
