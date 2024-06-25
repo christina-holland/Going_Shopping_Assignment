@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+  <h1 class="container text-center my-4">Rock Paper Scissors Game</h1>
+  <img class="rounded mx-auto d-block" src="rps.png" class="img-fluid" alt="rock paper scissors">
+    <div class="row my-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title" id="player1Name">Choose One:</h2>
+                    <br>
+                    <button type="button" id="rock" class="btn btn-success">Rock</button>
+                    <button type="button" id="paper" class="btn btn-primary">Paper</button>
+                    <button type="button" id="scissors" class="btn btn-warning">Scissors</button>
+                </div>
+            </div>
+        </div>        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title" id="player2Name">Scoreboard:</h2>
+                    <br>
+                    <p id="player-score">Your wins: 0</p>
+                    <p id="computer-score">Computer wins: 0</p>
+                    <p id="result-tie">Tie rounds: 0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script src="rps.js"></script>
+</body>
+</html>
